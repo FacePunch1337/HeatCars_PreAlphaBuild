@@ -140,6 +140,7 @@ Library: lib_burst_generated
 --compilation-defines=CINEMACHINE_UNITY_ANIMATION
 --compilation-defines=CINEMACHINE_UNITY_IMGUI
 --compilation-defines=TIMELINE_FRAMEACCURATE
+--compilation-defines=USING_PARTICLE_SYSTEM
 --linker-options=PdbAltPath="HeatCars_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
 --output=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
@@ -155,26 +156,36 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Polybrush.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Cinemachine.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Autodesk.Fbx.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.ProBuilder.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\PhotonRealtime.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.dll
---root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Utilities.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Utilities.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Csg.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.TerrainTools.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\PhotonChat.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Profiling.Core.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.ProBuilder.KdTree.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Formats.Fbx.Runtime.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Adobe.Substance.Runtime.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Stl.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\FbxBuildTestAssets.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
@@ -334,6 +345,7 @@ Library: lib_burst_generated
 --compilation-defines=CINEMACHINE_UNITY_ANIMATION
 --compilation-defines=CINEMACHINE_UNITY_IMGUI
 --compilation-defines=TIMELINE_FRAMEACCURATE
+--compilation-defines=USING_PARTICLE_SYSTEM
 --linker-options=PdbAltPath="HeatCars_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
 --output=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
@@ -349,26 +361,36 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Polybrush.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Cinemachine.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Autodesk.Fbx.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.ProBuilder.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\PhotonRealtime.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.dll
---root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Utilities.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Utilities.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Csg.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.TerrainTools.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\PhotonChat.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Profiling.Core.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.ProBuilder.KdTree.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Formats.Fbx.Runtime.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Adobe.Substance.Runtime.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Stl.dll
+--root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\FbxBuildTestAssets.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --root-assembly=C:\Users\gonnc\Desktop\BuildThisPls-master\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
@@ -380,10 +402,10 @@ Library: lib_burst_generated
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.SliceCullingJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.SliceCullingJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--1998da082e6413092f0e7bcd5a0e9331
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ZBinningJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ZBinningJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--77fc393cb521ac129b1392d4eb94d29a
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.VisibleLight, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.VisibleLight, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--b04c75a68edf1d166f6547f2ea0e8928
---method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoGetCSRTrampoline()--89425a97f3f500fa810ad03f0c382542
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e943843acfb78f5f2f3716a6553740d9
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
 --method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--da352d92cabf024fc9986011d52a4537
+--method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoGetCSRTrampoline()--89425a97f3f500fa810ad03f0c382542
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.MinMaxZJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.MinMaxZJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--d23a07cb3c3f217121d5bf94e76674f0
 --method=Unity.Jobs.IJobExtensions+JobStruct`1[[UnityEngine.Rendering.Universal.RadixSortJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.RadixSortJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--26c6d10914da2fc98755b3533c59141e
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.SliceCombineJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.SliceCombineJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e046a1595d0148509657ed4dbcb52a86
